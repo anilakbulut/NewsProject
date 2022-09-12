@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col">
+        <input class="form-control searchBar" type="text" [(ngModel)]="text" 
+               placeholder="Search by content,title or description">
+    </div>
+</div>
+
+<div class="container">
+    <div class="row" >
+        <div class="col-sm-12 col-md-6 col-lg-4 " 
+        *ngFor="let item of currentItemsToShow  | newsFilter:text; let i = index"
+        >
+            <div class="newsCard" >
+                <img src="{{item.urlToImage}}">
+                <div class="title">
+                    {{item.title}}
+                </div>
+                <div class="description">
+                    {{item.description}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<mat-paginator 
+(page)="onPageChange($event)"
+[length]="count"
+              [pageSizeOptions]="[3,6,9]">
+</mat-paginator>

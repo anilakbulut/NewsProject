@@ -1,0 +1,41 @@
+.topMargin{
+    margin-top: 50px;
+}
+.active {
+  background-color: rgb(241, 241, 241);
+
+}
+
+
+
+img{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.titlePosition{
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+}
+.fullCarousel{
+  position: relative;
+}
+.carousel{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.titleOutline {
+  color: #fff;
+  font-size: 29px;
+
+
+  text-shadow: rgb(223, 21, 21) 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
