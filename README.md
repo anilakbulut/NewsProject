@@ -1,4 +1,4 @@
-# It was developed with the API taken from https://newsapi.org/.
+### It was developed with the API taken from https://newsapi.org/.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
